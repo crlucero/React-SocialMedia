@@ -35,7 +35,7 @@ function User() {
                 </div>
             </div>
             <div>
-                <p style={user}>Kellie A. Corrigan</p>
+                <p style={user}>Cristian Lucero</p>
             </div>
             <div>
                 <p style={content} >Tweets Followers  Following  </p>
