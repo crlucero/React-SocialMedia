@@ -7,7 +7,6 @@ function WhatsHappening() {
         backgroundColor: 'skyblue',
         height: 75,
         gridTemplateColumns: '1fr 4fr'
-
     }
     let profileIcon = {
         borderStyle: 'solid',

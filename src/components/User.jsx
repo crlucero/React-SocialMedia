@@ -1,6 +1,7 @@
 import React from 'react'
 
 function User() {
+
     let topHalf = {
         backgroundColor: '#6DADEC',
         height: '125'
@@ -8,8 +9,9 @@ function User() {
     let user = {
         textAlign: 'right',
         marginRight: '25px',
+        fontSize: '20px',
         fontWeight: 'bold',
-        marginBottom: '20'
+        marginBottom: '20',
     }
     let content = {
         textAlign: 'center',
