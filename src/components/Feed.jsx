@@ -6,7 +6,8 @@ function Feed(props) {
         display: 'grid',
         gridTemplateColumns: '1fr 6fr',
         borderStyle: 'solid',
-        borderColor: 'lightgrey'
+        borderColor: 'lightgrey',
+        borderWidth: '1.5'
     }
     let profileIcon = {
         borderStyle: 'solid',

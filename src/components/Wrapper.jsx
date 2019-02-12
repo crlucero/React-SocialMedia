@@ -2,6 +2,7 @@ import React from 'react'
 import User from './User'
 import WhatsHappening from './WhatsHappening'
 import Feed from './Feed'
+import SideBar from './SideBar'
 
 function Wrapper() {
     let wrapper = {
@@ -28,6 +29,17 @@ function Wrapper() {
         marginLeft: '8px',
         marginRight: '8px',
     };
+    let sideBar = {
+        margin: 5,
+        borderStyle: 'solid',
+        borderColor: 'lightgrey'
+    }
+    let title = {
+        paddingLeft: '15',
+        fontWeight: 'bold',
+        textDecorationLine: 'underline',
+        fontSize: '18px'
+    }
 
     return (
       <div style={wrapper}>
@@ -43,7 +55,12 @@ function Wrapper() {
           <Feed text="Lorem Ipsum" />
           <Feed/>
         </div>
-
+        <div style={sideBar}>
+            <p style={title}>Lorem ipsum</p>
+            <SideBar color="brown"/>
+            <SideBar color="tan"/>
+            <SideBar color="green"/>
+        </div>
       </div>
     );
 }
